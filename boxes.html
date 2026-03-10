@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        div {
+            margin: 10px;
+            padding: 10px;
+            border: 3px solid black;
+        }
+
+        #siteContent {
+            background-color: #cc0c36;
+            width: 80%;
+            margin: auto;
+        }
+
+        #header {
+            background-color: #a80d2f;
+            font-size: 2em;
+        }
+
+        #navBar {
+            background-color: #a80d2f;
+        }
+
+        .navLink {
+            background-color: #e30737;
+            display: inline;
+        }
+
+        .article {
+            background-color: #e30737;
+        }
+
+        .articleHeader {
+            background-color: #cc0c36;
+        }
+
+        .articleContent {
+            background-color: #a80d2f;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="siteContent">
+        <div id="header">Boxes in Boxes</div>
+        <div id="navBar">
+            <div class="navLink">Link </div>
+            <div class="navLink">Link </div>
+            <div class="navLink">Link </div>
+        </div>
+        <div class="article">
+            <div class="articleHeader">
+                <h2>Article</h2>
+            </div>
+            <div class="articleContent">
+                <p>content</p>
+            </div>
+            <div class="articleHeader">
+                <h2>Article</h2>
+            </div>
+            <div class="articleContent">
+                <p>content</p>
+            </div>
+        </div>
+    </div>
+</body>
