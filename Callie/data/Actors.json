@@ -1,0 +1,5 @@
+[
+null,
+{"id":1,"battlerName":"mccc","characterIndex":0,"characterName":"mc","classId":2,"equips":[8,40,48,24,80],"faceIndex":0,"faceName":"mc","traits":[],"initialLevel":1,"maxLevel":99,"name":"Excalibur","nickname":"Callie","note":"","profile":""},
+{"id":2,"battlerName":"","characterIndex":3,"characterName":"Nature","classId":9,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"Nature","traits":[],"initialLevel":1,"maxLevel":99,"name":"Butterfox","nickname":"","note":"","profile":"The fox with butter on him."}
+]
